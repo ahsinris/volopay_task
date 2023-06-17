@@ -1,0 +1,32 @@
+{
+  "name": "base_setup",
+  "version": "1.0.0",
+  "description": "Node base setup",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "Base",
+    "Setup",
+    "Node"
+  ],
+  "author": "Rishavn",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.9.2",
+    "mysql2": "^3.3.1",
+    "nodemon": "^2.0.22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahsinris/base_setup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ahsinris/base_setup/issues"
+  },
+  "homepage": "https://github.com/ahsinris/base_setup#readme"
+}
