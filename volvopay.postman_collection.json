@@ -1,0 +1,147 @@
+{
+	"info": {
+		"_postman_id": "12597250-85e8-42ff-8078-12abb24f76ca",
+		"name": "volvopay",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "sold items in last q3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/total_items?department=Tech&start_date=2022-07-15&end_date=2022-10-30",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"total_items"
+					],
+					"query": [
+						{
+							"key": "department",
+							"value": "Tech"
+						},
+						{
+							"key": "start_date",
+							"value": "2022-07-15"
+						},
+						{
+							"key": "end_date",
+							"value": "2022-10-30"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "n th most sold items",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/nth_most_total_item?item_by=quantity&start_date=2022-07-15&end_date=2022-10-30&n=4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"nth_most_total_item"
+					],
+					"query": [
+						{
+							"key": "item_by",
+							"value": "quantity"
+						},
+						{
+							"key": "start_date",
+							"value": "2022-07-15"
+						},
+						{
+							"key": "end_date",
+							"value": "2022-10-30"
+						},
+						{
+							"key": "n",
+							"value": "4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "percentage of sold items depaertment wise",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/percentage_of_department_wise_sold_items?start_date=2022-07-15&end_date=2022-10-30",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"percentage_of_department_wise_sold_items"
+					],
+					"query": [
+						{
+							"key": "start_date",
+							"value": "2022-07-15"
+						},
+						{
+							"key": "end_date",
+							"value": "2022-10-30"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "monthly sales",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/monthly_sales?product=Apple&year=2022",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"monthly_sales"
+					],
+					"query": [
+						{
+							"key": "product",
+							"value": "Apple"
+						},
+						{
+							"key": "year",
+							"value": "2022"
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -8,10 +8,13 @@
     - Install node module
         * npm install
 
-    - Application will run on 3000 port
+    - Start the application
+        * npm start
+        - Application will run on 3000 port
 
 # End points
-    - total_items
-    - nth_most_total_item
-    - percentage_of_department_wise_sold_items
-    - monthly_sales
+    Please refer the post-man collection in the root folder
+        - total_items
+        - nth_most_total_item
+        - percentage_of_department_wise_sold_items
+        - monthly_sales
